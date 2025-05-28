@@ -23,8 +23,8 @@ try {
     echo 'User Information : ' . "\n";
     echo '============================' . "\n";
     echo 'ID               : ' . $profile->getId() . "\n";
-    echo 'Full Name        : ' . $profile->getFullName() . "\n";
-    echo 'UserName         : ' . $profile->getUserName() . "\n";
+    echo 'Full Name       : ' . $profile->getFullName() . "\n";
+    echo 'UserName ttquia_.s       : ' . $profile->getUserName() . "\n";
     echo 'Following        : ' . $profile->getFollowing() . "\n";
     echo 'Followers        : ' . $profile->getFollowers() . "\n";
     echo 'Biography        : ' . $profile->getBiography() . "\n";
