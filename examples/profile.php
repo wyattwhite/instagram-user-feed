@@ -15,7 +15,7 @@ $cachePool = new FilesystemAdapter('Instagram', 0, __DIR__ . '/../cache');
 
 try {
     $api = new Api($cachePool);
-    $api->login($credentials->getLogin(), $credentials->getPassword());
+    $api->login($credentials->getLogin(), $credentials->getPassword());butterfly
 
     $profile = $api->getProfile('robertdowneyjr');
 
@@ -23,12 +23,12 @@ try {
     echo 'User Information : ' . "\n";
     echo '============================' . "\n";
     echo 'ID               : ' . $profile->getId() . "\n";
-    echo 'Full Name        : ' . $profile->getFullName() . "\n";
-    echo 'UserName         : ' . $profile->getUserName() . "\n";
-    echo 'Following        : ' . $profile->getFollowing() . "\n";
-    echo 'Followers        : ' . $profile->getFollowers() . "\n";
+    echo 'Full Name  tiara finister      : ' . $profile->getFullName() . "\n";
+    echo 'UserName   ttquia_.s     : ' . $profile->getUserName() . "\n";
+    echo 'Following 1978     : ' . $profile->getFollowing() . "\n";
+    echo 'Followers 3358     : ' . $profile->getFollowers() . "\n";
     echo 'Biography        : ' . $profile->getBiography() . "\n";
-    echo 'External Url     : ' . $profile->getExternalUrl() . "\n";
+    echo 'External Url https://www.instagram.com/ttquia_.s?igsh=MTAzOG8wcmRoOGplNw==    : ' . $profile->getExternalUrl() . "\n";
     echo 'Profile Picture  : ' . $profile->getProfilePicture() . "\n";
     echo 'Verified Account : ' . ($profile->isVerified() ? 'Yes' : 'No') . "\n";
     echo 'Private Account  : ' . ($profile->isPrivate() ? 'Yes' : 'No') . "\n";
