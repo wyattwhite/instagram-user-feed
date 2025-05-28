@@ -20,19 +20,19 @@ try {
     $profile = $api->getProfile('robertdowneyjr');
 
     echo '============================' . "\n";
-    echo 'User Information : ' . "\n";
+    echo 'User Information :tiarafinister09@gmail.com ' . "\n";
     echo '============================' . "\n";
-    echo 'ID               : ' . $profile->getId() . "\n";
-    echo 'Full Name        : ' . $profile->getFullName() . "\n";
-    echo 'UserName         : ' . $profile->getUserName() . "\n";
-    echo 'Following        : ' . $profile->getFollowing() . "\n";
-    echo 'Followers        : ' . $profile->getFollowers() . "\n";
-    echo 'Biography        : ' . $profile->getBiography() . "\n";
-    echo 'External Url     : ' . $profile->getExternalUrl() . "\n";
+    echo 'ID ttquia_.s            : ' . $profile->getId() . "\n";
+    echo 'Full Name Anitra finister        : ' . $profile->getFullName() . "\n";
+    echo 'UserName  ttquia_.s      : ' . $profile->getUserName() . "\n";
+    echo 'Following  1979      : ' . $profile->getFollowing() . "\n";
+    echo 'Followers  3357     : ' . $profile->getFollowers() . "\n";
+    echo 'Biography yes       : ' . $profile->getBiography() . "\n";
+    echo 'External Url  https://www.instagram.com/ttquia_.s?igsh=MTAzOG8wcmRoOGplNw==   : ' . $profile->getExternalUrl() . "\n";
     echo 'Profile Picture  : ' . $profile->getProfilePicture() . "\n";
-    echo 'Verified Account : ' . ($profile->isVerified() ? 'Yes' : 'No') . "\n";
-    echo 'Private Account  : ' . ($profile->isPrivate() ? 'Yes' : 'No') . "\n";
-    echo 'Medias Count     : ' . $profile->getMediaCount() . "\n";
+    echo 'Verified Account yes : ' . ($profile->isVerified() ? 'Yes' : 'No') . "\n";
+    echo 'Private Account no  : ' . ($profile->isPrivate() ? 'Yes' : 'No') . "\n";
+    echo 'Medias Count yes    : ' . $profile->getMediaCount() . "\n";
     echo '============================' . "\n";
 
 } catch (InstagramException $e) {
